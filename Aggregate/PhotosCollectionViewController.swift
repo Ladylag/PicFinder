@@ -38,6 +38,17 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
             return UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
     }
     
+    override func collectionView(collectionView: UICollectionView,
+        shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
+            performSegueWithIdentifier("detailViewSegue", sender: photoForIndexPath(indexPath))
+            return true
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        var detailImageView: UIImageView = segue.destinationViewController.imageView!!
+        detailImageView.image = (sender as UIImage)
+    }
+    
     // MARK: UICollectionViewDataSource
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return searches.count

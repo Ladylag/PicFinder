@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hZ9-8v-jz5">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Photos Collection View Controller-->
@@ -60,10 +61,45 @@
                             </connections>
                         </textField>
                     </navigationItem>
+                    <connections>
+                        <segue destination="rEF-21-7hK" kind="showDetail" identifier="detailViewSegue" id="Xze-SP-fgw"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pr7-Y7-2h7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1427" y="433"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="7hN-dj-DKV">
+            <objects>
+                <viewController id="rEF-21-7hK" userLabel="Detail View Controller" customClass="DetailViewController" customModule="Aggregate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LCr-MW-ep0"/>
+                        <viewControllerLayoutGuide type="bottom" id="frM-GD-zXQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KNv-zt-kCW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bgB-ee-ZiR">
+                                <rect key="frame" x="16" y="20" width="568" height="580"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bgB-ee-ZiR" firstAttribute="leading" secondItem="KNv-zt-kCW" secondAttribute="leadingMargin" id="PNW-4w-VRK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bgB-ee-ZiR" secondAttribute="trailing" id="aRH-rD-RhR"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="bgB-ee-ZiR" secondAttribute="bottom" id="fye-IS-Ect"/>
+                            <constraint firstItem="bgB-ee-ZiR" firstAttribute="top" secondItem="LCr-MW-ep0" secondAttribute="bottom" id="wP7-pZ-Vxw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="bgB-ee-ZiR" id="gh3-x1-q0Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eox-j7-fPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="433"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Q80-FC-LZ4">
