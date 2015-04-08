@@ -18,6 +18,16 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
         return searches[indexPath.section].searchResults[indexPath.row]
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        let destinationController: DetailViewController = segue.destinationViewController as DetailViewController
+        let flickrPhoto = sender as FlickrPhoto
+        if flickrPhoto.largeImage != nil {
+            destinationController.image = flickrPhoto.largeImage
+        } else {
+            destinationController.image = flickrPhoto.thumbnail
+        }
+    }
+    
     // MARK: UICollectionViewDelegateFlowLayout
     func collectionView(collectionView: UICollectionView!,
         layout collectionViewLayout: UICollectionViewLayout!,
@@ -40,13 +50,12 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     
     override func collectionView(collectionView: UICollectionView,
         shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-            performSegueWithIdentifier("detailViewSegue", sender: photoForIndexPath(indexPath))
+            let flickrPhoto = photoForIndexPath(indexPath)
+            flickrPhoto.loadLargeImage { (flickrPhoto, error) -> Void in
+                self.performSegueWithIdentifier("detailViewSegue", sender: flickrPhoto)
+            }
+
             return true
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        var detailImageView: UIImageView = segue.destinationViewController.imageView!!
-        detailImageView.image = (sender as UIImage)
     }
     
     // MARK: UICollectionViewDataSource

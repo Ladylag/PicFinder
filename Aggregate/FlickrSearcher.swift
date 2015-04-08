@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+//SOPHIEXXX: get an api key that isn't associated with my account
 let apiKey = "bfe13d96ac43fc5d7dd254750845e5fd"
 
 struct FlickrSearchResults {

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4CEB8C51AD33DF70039E7FC"
-               BuildableName = "Aggregate.app"
-               BlueprintName = "Aggregate"
-               ReferencedContainer = "container:Aggregate.xcodeproj">
+               BuildableName = "PicFinder.app"
+               BlueprintName = "PicFinder"
+               ReferencedContainer = "container:PicFinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4CEB8DA1AD33DF70039E7FC"
-               BuildableName = "AggregateTests.xctest"
-               BlueprintName = "AggregateTests"
-               ReferencedContainer = "container:Aggregate.xcodeproj">
+               BuildableName = "PicFinderTests.xctest"
+               BlueprintName = "PicFinderTests"
+               ReferencedContainer = "container:PicFinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4CEB8DA1AD33DF70039E7FC"
-               BuildableName = "AggregateTests.xctest"
-               BlueprintName = "AggregateTests"
-               ReferencedContainer = "container:Aggregate.xcodeproj">
+               BuildableName = "PicFinderTests.xctest"
+               BlueprintName = "PicFinderTests"
+               ReferencedContainer = "container:PicFinder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4CEB8C51AD33DF70039E7FC"
-            BuildableName = "Aggregate.app"
-            BlueprintName = "Aggregate"
-            ReferencedContainer = "container:Aggregate.xcodeproj">
+            BuildableName = "PicFinder.app"
+            BlueprintName = "PicFinder"
+            ReferencedContainer = "container:PicFinder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4CEB8C51AD33DF70039E7FC"
-            BuildableName = "Aggregate.app"
-            BlueprintName = "Aggregate"
-            ReferencedContainer = "container:Aggregate.xcodeproj">
+            BuildableName = "PicFinder.app"
+            BlueprintName = "PicFinder"
+            ReferencedContainer = "container:PicFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4CEB8C51AD33DF70039E7FC"
-            BuildableName = "Aggregate.app"
-            BlueprintName = "Aggregate"
-            ReferencedContainer = "container:Aggregate.xcodeproj">
+            BuildableName = "PicFinder.app"
+            BlueprintName = "PicFinder"
+            ReferencedContainer = "container:PicFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

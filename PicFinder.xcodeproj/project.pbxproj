@@ -33,13 +33,13 @@
 		E42257211AD351940091E569 /* FlickrSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearcher.swift; sourceTree = "<group>"; };
 		E42257231AD3606B0091E569 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E499FC061AD369E80056752E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		E4CEB8C61AD33DF70039E7FC /* Aggregate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aggregate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CEB8C61AD33DF70039E7FC /* PicFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CEB8CA1AD33DF70039E7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CEB8CB1AD33DF70039E7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4CEB8D01AD33DF70039E7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4CEB8D21AD33DF70039E7FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4CEB8D51AD33DF70039E7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E4CEB8DB1AD33DF70039E7FC /* AggregateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AggregateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CEB8DB1AD33DF70039E7FC /* PicFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CEB8E01AD33DF70039E7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CEB8E11AD33DF70039E7FC /* AggregateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,8 +74,8 @@
 		E4CEB8C71AD33DF70039E7FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4CEB8C61AD33DF70039E7FC /* Aggregate.app */,
-				E4CEB8DB1AD33DF70039E7FC /* AggregateTests.xctest */,
+				E4CEB8C61AD33DF70039E7FC /* PicFinder.app */,
+				E4CEB8DB1AD33DF70039E7FC /* PicFinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4CEB8C51AD33DF70039E7FC /* Aggregate */ = {
+		E4CEB8C51AD33DF70039E7FC /* PicFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4CEB8E51AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "Aggregate" */;
+			buildConfigurationList = E4CEB8E51AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "PicFinder" */;
 			buildPhases = (
 				E4CEB8C21AD33DF70039E7FC /* Sources */,
 				E4CEB8C31AD33DF70039E7FC /* Frameworks */,
@@ -136,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = Aggregate;
+			name = PicFinder;
 			productName = Aggregate;
-			productReference = E4CEB8C61AD33DF70039E7FC /* Aggregate.app */;
+			productReference = E4CEB8C61AD33DF70039E7FC /* PicFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4CEB8DA1AD33DF70039E7FC /* AggregateTests */ = {
+		E4CEB8DA1AD33DF70039E7FC /* PicFinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4CEB8E81AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "AggregateTests" */;
+			buildConfigurationList = E4CEB8E81AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "PicFinderTests" */;
 			buildPhases = (
 				E4CEB8D71AD33DF70039E7FC /* Sources */,
 				E4CEB8D81AD33DF70039E7FC /* Frameworks */,
@@ -154,9 +154,9 @@
 			dependencies = (
 				E4CEB8DD1AD33DF70039E7FC /* PBXTargetDependency */,
 			);
-			name = AggregateTests;
+			name = PicFinderTests;
 			productName = AggregateTests;
-			productReference = E4CEB8DB1AD33DF70039E7FC /* AggregateTests.xctest */;
+			productReference = E4CEB8DB1AD33DF70039E7FC /* PicFinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4CEB8C11AD33DF70039E7FC /* Build configuration list for PBXProject "Aggregate" */;
+			buildConfigurationList = E4CEB8C11AD33DF70039E7FC /* Build configuration list for PBXProject "PicFinder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -192,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4CEB8C51AD33DF70039E7FC /* Aggregate */,
-				E4CEB8DA1AD33DF70039E7FC /* AggregateTests */,
+				E4CEB8C51AD33DF70039E7FC /* PicFinder */,
+				E4CEB8DA1AD33DF70039E7FC /* PicFinderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		E4CEB8DD1AD33DF70039E7FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4CEB8C51AD33DF70039E7FC /* Aggregate */;
+			target = E4CEB8C51AD33DF70039E7FC /* PicFinder */;
 			targetProxy = E4CEB8DC1AD33DF70039E7FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -355,7 +355,7 @@
 				INFOPLIST_FILE = Aggregate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PicFinder;
 			};
 			name = Debug;
 		};
@@ -366,7 +366,7 @@
 				INFOPLIST_FILE = Aggregate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PicFinder;
 			};
 			name = Release;
 		};
@@ -386,7 +386,7 @@
 				);
 				INFOPLIST_FILE = AggregateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PicFinderTests;
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aggregate.app/Aggregate";
 			};
@@ -404,7 +404,7 @@
 				);
 				INFOPLIST_FILE = AggregateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PicFinderTests;
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aggregate.app/Aggregate";
 			};
@@ -413,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4CEB8C11AD33DF70039E7FC /* Build configuration list for PBXProject "Aggregate" */ = {
+		E4CEB8C11AD33DF70039E7FC /* Build configuration list for PBXProject "PicFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4CEB8E31AD33DF70039E7FC /* Debug */,
@@ -422,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4CEB8E51AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "Aggregate" */ = {
+		E4CEB8E51AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "PicFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4CEB8E61AD33DF70039E7FC /* Debug */,
@@ -431,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4CEB8E81AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "AggregateTests" */ = {
+		E4CEB8E81AD33DF70039E7FC /* Build configuration list for PBXNativeTarget "PicFinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4CEB8E91AD33DF70039E7FC /* Debug */,

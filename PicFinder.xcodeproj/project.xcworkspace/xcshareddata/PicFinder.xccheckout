@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DB7296D5-4CAA-421D-B1CC-8ACF1F79E03B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PicFinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DB44BA1647AC3622DA2AEBBD775259FFEB36410F</key>
+		<string>https://github.com/Ladylag/PicFinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PicFinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DB44BA1647AC3622DA2AEBBD775259FFEB36410F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Ladylag/PicFinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DB44BA1647AC3622DA2AEBBD775259FFEB36410F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB44BA1647AC3622DA2AEBBD775259FFEB36410F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Aggregate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
