@@ -70,6 +70,7 @@
 				E4CEB8C71AD33DF70039E7FC /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E4CEB8C71AD33DF70039E7FC /* Products */ = {
 			isa = PBXGroup;
