@@ -13,7 +13,7 @@ let apiKey = "bfe13d96ac43fc5d7dd254750845e5fd"
 
 struct FlickrSearchResults {
   let searchTerm : String
-  let searchResults : [FlickrPhoto]
+  var searchResults : [FlickrPhoto]
 }
 
 class FlickrPhoto : Equatable {
@@ -146,7 +146,7 @@ class Flickr {
   private func flickrSearchURLForSearchTerm(searchTerm:String) -> NSURL {
     
     let escapedTerm = searchTerm.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!
-    let URLString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(apiKey)&text=\(escapedTerm)&per_page=20&format=json&nojsoncallback=1"
+    let URLString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(apiKey)&text=\(escapedTerm)&safe_search=1&sort=relevance&per_page=20&format=json&nojsoncallback=1"
     return NSURL(string: URLString)!
   }
   

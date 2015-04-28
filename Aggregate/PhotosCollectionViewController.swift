@@ -10,12 +10,13 @@ import UIKit
 
 private let reuseIdentifier = "photoCell"
 
-class PhotosCollectionViewController: UICollectionViewController, UITextFieldDelegate, UICollectionViewDelegateFlowLayout {
-    private var searches = [FlickrSearchResults]()
+class PhotosCollectionViewController: UICollectionViewController, UITextFieldDelegate, UICollectionViewDelegateFlowLayout, UIScrollViewDelegate {
+    private var currentSearch : FlickrSearchResults?
+    private var waitingForSearchAPI = false
     private let flickr = Flickr()
     
     func photoForIndexPath(indexPath: NSIndexPath) -> FlickrPhoto {
-        return searches[indexPath.section].searchResults[indexPath.row]
+        return currentSearch!.searchResults[indexPath.row]
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
@@ -25,6 +26,39 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
             destinationController.image = flickrPhoto.largeImage
         } else {
             destinationController.image = flickrPhoto.thumbnail
+        }
+    }
+    
+    func searchForTerm(searchTerm: String!, completion : (error : NSError?) -> Void, replaceLastResults : Bool = true) {
+        self.waitingForSearchAPI = true
+        flickr.searchFlickrForTerm(searchTerm) {
+            results, error in
+            self.waitingForSearchAPI = false
+            if error != nil {
+                println("Error searching : \(error)")
+            }
+            
+            if results != nil {
+                println("Found \(results!.searchResults.count) matching \(results!.searchTerm)")
+                if (replaceLastResults) {
+                    self.currentSearch = results!
+                    self.collectionView?.reloadData()
+                } else {
+                    self.currentSearch?.searchResults += results!.searchResults
+                }
+            }
+            completion(error: error)
+        }
+    }
+    
+    // MARK: UIScrollViewDelegate
+    override func scrollViewDidScroll(scrollView: UIScrollView) {
+        //if the scrollview has reached the bottom and there is not currently a search in progress
+        if (scrollView.contentOffset.y >= (scrollView.contentSize.height - scrollView.frame.size.height) &&
+            self.waitingForSearchAPI == false && self.currentSearch != nil) {
+               searchForTerm(currentSearch?.searchTerm, completion: { (error) -> Void in
+                println("searched!")
+               }, replaceLastResults: false)
         }
     }
     
@@ -59,12 +93,12 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     }
     
     // MARK: UICollectionViewDataSource
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        return searches.count
-    }
-    
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return searches[section].searchResults.count
+         if currentSearch != nil {
+            return currentSearch!.searchResults.count
+         } else {
+            return 0
+        }
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -81,22 +115,9 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
         textField.addSubview(activityIndicator)
         activityIndicator.frame = textField.bounds
         activityIndicator.startAnimating()
-        flickr.searchFlickrForTerm(textField.text) {
-            results, error in
-            
+        searchForTerm(textField.text, completion: { (error) -> Void in
             activityIndicator.removeFromSuperview()
-            if error != nil {
-                println("Error searching : \(error)")
-            }
-            
-            if results != nil {
-                println("Found \(results!.searchResults.count) matching \(results!.searchTerm)")
-                self.searches.insert(results!, atIndex: 0)
-                
-                self.collectionView?.reloadData()
-            }
-        }
-        
+        })
         textField.text = nil
         textField.resignFirstResponder()
         return true
