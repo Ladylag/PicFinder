@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 //SOPHIEXXX: get an api key that isn't associated with my account
 let apiKey = "bfe13d96ac43fc5d7dd254750845e5fd"
+let numberOfResultsPerPage = 20
 
 struct FlickrSearchResults {
   let searchTerm : String
@@ -88,9 +89,9 @@ class Flickr {
   
   let processingQueue = NSOperationQueue()
   
-  func searchFlickrForTerm(searchTerm: String, completion : (results: FlickrSearchResults?, error : NSError?) -> Void){
+    func searchFlickrForTerm(searchTerm: String, page: Int = 1, completion : (results: FlickrSearchResults?, error : NSError?) -> Void){
     
-    let searchURL = flickrSearchURLForSearchTerm(searchTerm)
+    let searchURL = flickrSearchURLForSearchTerm(searchTerm, page: page)
     let searchRequest = NSURLRequest(URL: searchURL)
     NSURLConnection.sendAsynchronousRequest(searchRequest, queue: processingQueue) {response, data, error in
       if error != nil {
@@ -113,7 +114,7 @@ class Flickr {
         completion(results: nil, error: APIError)
         return
       default:
-        let APIError = NSError(domain: "FlickrSearch", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Uknown API response"])
+        let APIError = NSError(domain: "FlickrSearch", code: 0, userInfo: [NSLocalizedFailureReasonErrorKey:"Unknown API response"])
         completion(results: nil, error: APIError)
         return
       }
@@ -143,10 +144,10 @@ class Flickr {
     }
   }
   
-  private func flickrSearchURLForSearchTerm(searchTerm:String) -> NSURL {
+    private func flickrSearchURLForSearchTerm(searchTerm:String, page: Int = 1) -> NSURL {
     
     let escapedTerm = searchTerm.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!
-    let URLString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(apiKey)&text=\(escapedTerm)&safe_search=1&sort=relevance&per_page=20&format=json&nojsoncallback=1"
+    let URLString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(apiKey)&text=\(escapedTerm)&safe_search=1&sort=relevance&per_page=\(numberOfResultsPerPage)&page=\(page)&format=json&nojsoncallback=1"
     return NSURL(string: URLString)!
   }
   

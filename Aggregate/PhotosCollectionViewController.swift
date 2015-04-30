@@ -31,7 +31,13 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     
     func searchForTerm(searchTerm: String!, completion : (error : NSError?) -> Void, replaceLastResults : Bool = true) {
         self.waitingForSearchAPI = true
-        flickr.searchFlickrForTerm(searchTerm) {
+        var page: Int = 1
+        //If we are adding more images to the search results,
+        //we will need to derive which page of search results we should ask flickr for
+        if (!replaceLastResults) {
+            page = (self.currentSearch!.searchResults.count / numberOfResultsPerPage) + 1
+        }
+        flickr.searchFlickrForTerm(searchTerm, page: page) {
             results, error in
             self.waitingForSearchAPI = false
             if error != nil {
@@ -45,6 +51,7 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
                     self.collectionView?.reloadData()
                 } else {
                     self.currentSearch?.searchResults += results!.searchResults
+                    self.collectionView?.reloadData()
                 }
             }
             completion(error: error)
