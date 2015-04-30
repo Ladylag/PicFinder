@@ -35,8 +35,16 @@ class FlickrPhoto : Equatable {
   func flickrImageURL(size:String = "m") -> NSURL {
     return NSURL(string: "http://farm\(farm).staticflickr.com/\(server)/\(photoID)_\(secret)_\(size).jpg")!
   }
-  
+    
+  func flickrImageSizesAvailableURL() -> NSURL {
+    //4/29: You are checking for large image before attempting to download.  You just created this untested URL here and it has an error for some reason.
+    //fix the error, test the api call, throw an error if there is no large image so the detail controller wlil know to use the thumbnail instead.
+    return NSURL(string: "https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=\(apiKey)&photo_id=\(photoID)&format=json&nojsoncallback=1")
+  }
+
   func loadLargeImage(completion: (flickrPhoto:FlickrPhoto, error: NSError?) -> Void) {
+    
+    
     let loadURL = flickrImageURL(size: "b")
     let loadRequest = NSURLRequest(URL:loadURL)
     NSURLConnection.sendAsynchronousRequest(loadRequest,

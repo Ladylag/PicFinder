@@ -11,11 +11,17 @@ import UIKit
 class DetailViewController: UIViewController, UIActionSheetDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
-    var image: UIImage?
+    var flickrPhoto : FlickrPhoto?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageView.image = image
+        flickrPhoto!.loadLargeImage { (flickrPhoto, error) -> Void in
+            if (error == nil) {
+                self.imageView.image = flickrPhoto.largeImage
+            } else {
+                self.imageView.image = flickrPhoto.thumbnail
+            }
+        }
         let tapGestureRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("imageTapped:"))
         imageView.userInteractionEnabled = true
         imageView.addGestureRecognizer(tapGestureRecognizer)
@@ -29,7 +35,7 @@ class DetailViewController: UIViewController, UIActionSheetDelegate {
     // MARK: UICollectionViewDelegateFlowLayout
     func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
         if buttonIndex != actionSheet.cancelButtonIndex {
-            UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+            UIImageWriteToSavedPhotosAlbum(self.imageView.image, nil, nil, nil)
         }
     }
 }

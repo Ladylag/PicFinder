@@ -22,11 +22,7 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         let destinationController: DetailViewController = segue.destinationViewController as DetailViewController
         let flickrPhoto = sender as FlickrPhoto
-        if flickrPhoto.largeImage != nil {
-            destinationController.image = flickrPhoto.largeImage
-        } else {
-            destinationController.image = flickrPhoto.thumbnail
-        }
+        destinationController.flickrPhoto = flickrPhoto
     }
     
     func searchForTerm(searchTerm: String!, completion : (error : NSError?) -> Void, replaceLastResults : Bool = true) {
@@ -64,7 +60,7 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
         if (scrollView.contentOffset.y >= (scrollView.contentSize.height - scrollView.frame.size.height) &&
             self.waitingForSearchAPI == false && self.currentSearch != nil) {
                searchForTerm(currentSearch?.searchTerm, completion: { (error) -> Void in
-                println("searched!")
+               //SOPHIEXXX: remove activity indicator here
                }, replaceLastResults: false)
         }
     }
@@ -92,10 +88,7 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     override func collectionView(collectionView: UICollectionView,
         shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
             let flickrPhoto = photoForIndexPath(indexPath)
-            flickrPhoto.loadLargeImage { (flickrPhoto, error) -> Void in
-                self.performSegueWithIdentifier("detailViewSegue", sender: flickrPhoto)
-            }
-
+            self.performSegueWithIdentifier("detailViewSegue", sender: flickrPhoto)
             return true
     }
     
