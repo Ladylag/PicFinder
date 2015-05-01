@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Aggregate/DetailViewController.swift"
-            timestampString = "452054802.577918"
+            filePath = "Aggregate/FlickrSearcher.swift"
+            timestampString = "452134429.799343"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "loadLargeImage(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

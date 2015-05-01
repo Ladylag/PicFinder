@@ -37,13 +37,31 @@ class FlickrPhoto : Equatable {
   }
     
   func flickrImageSizesAvailableURL() -> NSURL {
-    //4/29: You are checking for large image before attempting to download.  You just created this untested URL here and it has an error for some reason.
-    //fix the error, test the api call, throw an error if there is no large image so the detail controller wlil know to use the thumbnail instead.
-    return NSURL(string: "https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=\(apiKey)&photo_id=\(photoID)&format=json&nojsoncallback=1")
+    return NSURL(string: "https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=\(apiKey)&photo_id=\(photoID)&format=json&nojsoncallback=1")!
   }
 
   func loadLargeImage(completion: (flickrPhoto:FlickrPhoto, error: NSError?) -> Void) {
-    
+    let imageSizeURL = flickrImageSizesAvailableURL()
+    let imageRequest = NSURLRequest(URL: imageSizeURL)
+    NSURLConnection.sendAsynchronousRequest(imageRequest, queue: NSOperationQueue.mainQueue()) { response, data, error in
+        if error != nil {
+            completion(flickrPhoto: self, error: error)
+            return
+        }
+        
+        var JSONError : NSError?
+        let resultsDictionary = NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions(0), error: &JSONError) as? NSDictionary
+        if JSONError != nil {
+            completion(flickrPhoto: self, error: JSONError)
+            return
+        }
+        //4/30 So this is all a big headache and I've decided I need to use swiftyjson to escape this nightmare.  In order to do that I need to either use carthage or cocoapods.  Good luck me <3
+        let sizeDict : NSDictionary = resultsDictionary!["sizes"] as NSDictionary
+       // let sizeArray : [String]? = ["size"] as [String]?
+       // if sizeArray != nil {
+            println("yo")
+        //}
+    }
     
     let loadURL = flickrImageURL(size: "b")
     let loadRequest = NSURLRequest(URL:loadURL)
