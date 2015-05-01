@@ -20,8 +20,8 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        let destinationController: DetailViewController = segue.destinationViewController as DetailViewController
-        let flickrPhoto = sender as FlickrPhoto
+        let destinationController: DetailViewController = segue.destinationViewController as! DetailViewController
+        let flickrPhoto = sender as! FlickrPhoto
         destinationController.flickrPhoto = flickrPhoto
     }
     
@@ -102,7 +102,7 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as PhotoCollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! PhotoCollectionViewCell
         let flickrPhoto = photoForIndexPath(indexPath)
         cell.imageView.image = flickrPhoto.thumbnail
         cell.backgroundColor = UIColor.blackColor()

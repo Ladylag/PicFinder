@@ -56,7 +56,7 @@ class FlickrPhoto : Equatable {
             return
         }
         //4/30 So this is all a big headache and I've decided I need to use swiftyjson to escape this nightmare.  In order to do that I need to either use carthage or cocoapods.  Good luck me <3
-        let sizeDict : NSDictionary = resultsDictionary!["sizes"] as NSDictionary
+        let sizeDict : NSDictionary = resultsDictionary!["sizes"] as! NSDictionary
        // let sizeArray : [String]? = ["size"] as [String]?
        // if sizeArray != nil {
             println("yo")
@@ -132,7 +132,7 @@ class Flickr {
         return
       }
       
-      switch (resultsDictionary!["stat"] as String) {
+      switch (resultsDictionary!["stat"] as! String) {
       case "ok":
         println("Results processed OK")
       case "fail":
@@ -145,8 +145,8 @@ class Flickr {
         return
       }
       
-      let photosContainer = resultsDictionary!["photos"] as NSDictionary
-      let photosReceived = photosContainer["photo"] as [NSDictionary]
+      let photosContainer = resultsDictionary!["photos"] as! NSDictionary
+      let photosReceived = photosContainer["photo"] as! [NSDictionary]
       
       let flickrPhotos : [FlickrPhoto] = photosReceived.map {
         photoDictionary in
