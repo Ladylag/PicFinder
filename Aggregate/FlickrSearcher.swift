@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import SwiftyJSON
+
 //SOPHIEXXX: get an api key that isn't associated with my account
 let apiKey = "bfe13d96ac43fc5d7dd254750845e5fd"
 let numberOfResultsPerPage = 20
@@ -49,18 +51,10 @@ class FlickrPhoto : Equatable {
             return
         }
         
-        var JSONError : NSError?
-        let resultsDictionary = NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions(0), error: &JSONError) as? NSDictionary
-        if JSONError != nil {
-            completion(flickrPhoto: self, error: JSONError)
-            return
-        }
-        //4/30 So this is all a big headache and I've decided I need to use swiftyjson to escape this nightmare.  In order to do that I need to either use carthage or cocoapods.  Good luck me <3
-        let sizeDict : NSDictionary = resultsDictionary!["sizes"] as! NSDictionary
-       // let sizeArray : [String]? = ["size"] as [String]?
-       // if sizeArray != nil {
-            println("yo")
-        //}
+        let resultsJSON = JSON(data: data)
+        let sizeArray = resultsJSON["sizes"]["size"].array
+        println(sizeArray)
+        //5/1 THIS WORKS! Yay =) Time to figure out if the large size is available from this data.  Good work! You are special =)
     }
     
     let loadURL = flickrImageURL(size: "b")
