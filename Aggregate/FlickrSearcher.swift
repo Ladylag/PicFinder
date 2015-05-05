@@ -45,19 +45,28 @@ class FlickrPhoto : Equatable {
   func loadLargeImage(completion: (flickrPhoto:FlickrPhoto, error: NSError?) -> Void) {
     let imageSizeURL = flickrImageSizesAvailableURL()
     let imageRequest = NSURLRequest(URL: imageSizeURL)
+    var largestSizeAvailableURL = self.flickrImageURL()
     NSURLConnection.sendAsynchronousRequest(imageRequest, queue: NSOperationQueue.mainQueue()) { response, data, error in
         if error != nil {
             completion(flickrPhoto: self, error: error)
             return
         }
-        
         let resultsJSON = JSON(data: data)
-        let sizeArray = resultsJSON["sizes"]["size"].array
-        println(sizeArray)
-        //5/1 THIS WORKS! Yay =) Time to figure out if the large size is available from this data.  Good work! You are special =)
+        let sizeArrayAsJSON = resultsJSON["sizes"]["size"]
+        var largestWidth = 0
+        for (index: String, subJSON: JSON) in sizeArrayAsJSON {
+            if let width = subJSON["width"].int {
+                if (width > largestWidth) {
+                    largestWidth = width
+                    largestSizeAvailableURL = NSURL(string:subJSON["source"].stringValue)!
+                }
+            } else {
+                continue
+            }
+        }
     }
-    
-    let loadURL = flickrImageURL(size: "b")
+   //5/4: The request below this line is happening before the request above resolves.  We need to chain this request to the completion block of the one above. Good work :D
+    let loadURL = largestSizeAvailableURL
     let loadRequest = NSURLRequest(URL:loadURL)
     NSURLConnection.sendAsynchronousRequest(loadRequest,
       queue: NSOperationQueue.mainQueue()) {
