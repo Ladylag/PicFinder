@@ -3,7 +3,7 @@
 use_frameworks!
 
 target 'PicFinder' do
-pod 'SwiftyJSON', '~> 2.1'
+pod 'SwiftyJSON', :git => 'https://github.com/Ladylag/SwiftyJSON.git'
 end
 
 target 'PicFinderTests' do

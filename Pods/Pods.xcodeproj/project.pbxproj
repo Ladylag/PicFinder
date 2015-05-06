@@ -7,162 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		438329794DD9CC7C1DCBAE79 /* Pods-PicFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0BA2C9262E9D3410C846BF /* Pods-PicFinder-dummy.m */; };
-		460543C078A379D99D85B556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2C3E60E789C45937194A9E /* Foundation.framework */; };
-		7269F6BBE435942F72374ACB /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DC0E23E86827031E1246E4 /* Pods-PicFinder-SwiftyJSON-dummy.m */; };
-		803F6AE15F0F4EDBB0156CE4 /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 907A7388F695B0908919DC03 /* Pods-PicFinder-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC3CE2B5489B32C2860C8C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2C3E60E789C45937194A9E /* Foundation.framework */; };
-		E02DF2C0231D59B2D973344D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F082B5AD8515D98FBC4F7F /* SwiftyJSON.swift */; };
-		F73CA03AD5FC5FABB9B35819 /* Pods-PicFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B04D01504ED38D5502C22B63 /* Pods-PicFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B71E8A92FFFE90666464B5B /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549A472A646903CE9257CF9 /* Pods-PicFinder-SwiftyJSON-dummy.m */; };
+		45ADABC4AF4FEC4555C3D911 /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DCC59D2D424413C43BB565 /* Pods-PicFinder-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69632E7DE557C30D8491D34B /* Pods-PicFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0FB0CA6177BAD1B93FEFE8 /* Pods-PicFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87158630BA85A2C17F2B2D80 /* Pods-PicFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CC50C45860426DD038C439 /* Pods-PicFinder-dummy.m */; };
+		B16187E80B7D71CBAC22FB69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F440D3FD929E52E556359B /* Foundation.framework */; };
+		BCA19BD67CB84F4E5FA5479F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F440D3FD929E52E556359B /* Foundation.framework */; };
+		DBDA519E05DC86D9D6B59C50 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40CD25D53E63B3B3ABB39 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		37CEC49826E62294711E1982 /* PBXContainerItemProxy */ = {
+		6FFC880418F3C937BA86BDCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 422406F7A7D6E3663E18B214 /* Project object */;
+			containerPortal = 6BF55DFFB839F883148BE96C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B54B6CEBD404D39E4818D3B;
+			remoteGlobalIDString = 1AC0F3C84AE82745F70AFF1A;
 			remoteInfo = "Pods-PicFinder-SwiftyJSON";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D588F3310DA3BE6C4748FCD /* Pods-PicFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-frameworks.sh"; sourceTree = "<group>"; };
-		16182584238E8957DC6E6C25 /* Pods-PicFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder.modulemap"; sourceTree = "<group>"; };
-		18F082B5AD8515D98FBC4F7F /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		29BF140BE5EF618DEFE32C47 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2FB56B2006014D0D48DDE567 /* Pods-PicFinder-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
-		3A94E389276F7A0903A5A3E2 /* Pods-PicFinder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-resources.sh"; sourceTree = "<group>"; };
-		4A5B60666BEDADF00F2C8055 /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
-		6A0BA2C9262E9D3410C846BF /* Pods-PicFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-dummy.m"; sourceTree = "<group>"; };
-		7D1FE0D30749EFCA3BE94291 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D9EEF173A52CBDEB015601C /* Pods-PicFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.release.xcconfig"; sourceTree = "<group>"; };
-		907A7388F695B0908919DC03 /* Pods-PicFinder-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		A0504F1819F4EFA5220CA233 /* Pods-PicFinder-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
-		A9230768BCF11C4AEAB9C095 /* Pods-PicFinder-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-environment.h"; sourceTree = "<group>"; };
-		AF835E2F0A862E9232F94928 /* Pods_PicFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B04D01504ED38D5502C22B63 /* Pods-PicFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-umbrella.h"; sourceTree = "<group>"; };
-		C04E4196EE7E5A3547472A0D /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7759D7A16B0BCEDADA71F29 /* Pods-PicFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PicFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D76B5439D31C97A4CDEB19E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E43F4C8ADB0762D1F67C6434 /* Pods-PicFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.debug.xcconfig"; sourceTree = "<group>"; };
-		E4DC0E23E86827031E1246E4 /* Pods-PicFinder-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		E9C8D1D8532405EA747AD9E7 /* Pods-PicFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PicFinder-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED2C3E60E789C45937194A9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F21C109368F769693DC8B2F0 /* Pods-PicFinder-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		03DA9D0DAE637D11B8EEBB87 /* Pods-PicFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder.modulemap"; sourceTree = "<group>"; };
+		04E91135E655FC3A56714562 /* Pods-PicFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-frameworks.sh"; sourceTree = "<group>"; };
+		0CEB978EF811CFDFF4A60D72 /* Pods-PicFinder-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		1B5990683696B5A88EFADEF8 /* Pods_PicFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2549A472A646903CE9257CF9 /* Pods-PicFinder-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		32CC50C45860426DD038C439 /* Pods-PicFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-dummy.m"; sourceTree = "<group>"; };
+		4A00DB921C1FA0161DCD3A96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D8A919C53427D2E626D191 /* Pods-PicFinder-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		59D4656B7AFC4E0DBF4A77C9 /* Pods-PicFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PicFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F3E82871358344250E26818 /* Pods-PicFinder-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		850EE49505B4E2A52E507A18 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FC56A6F7DEBFEE85C445653 /* Pods-PicFinder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-resources.sh"; sourceTree = "<group>"; };
+		90DF3FF907FD3430F7A926B7 /* Pods-PicFinder-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-environment.h"; sourceTree = "<group>"; };
+		99A4B40D3FC3F67B74A2C706 /* Pods-PicFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PicFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D0FB0CA6177BAD1B93FEFE8 /* Pods-PicFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-umbrella.h"; sourceTree = "<group>"; };
+		A7274D5DE044C8A1A4168248 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8DCC59D2D424413C43BB565 /* Pods-PicFinder-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		B8F440D3FD929E52E556359B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C3ECFA179F4040D09CBB0613 /* Pods-PicFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		D283E585DDFFEFE3D9C9033A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD072084F07F4EBB11C2A65F /* Pods-PicFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.release.xcconfig"; sourceTree = "<group>"; };
+		F3B40CD25D53E63B3B3ABB39 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BE04C840795C3D177D62944 /* Frameworks */ = {
+		565F13EE902A2E9E34245931 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460543C078A379D99D85B556 /* Foundation.framework in Frameworks */,
+				B16187E80B7D71CBAC22FB69 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E45374F84F00AEC52B2B8DBB /* Frameworks */ = {
+		F7D61053771AD2F65E61CC37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3CE2B5489B32C2860C8C8D /* Foundation.framework in Frameworks */,
+				BCA19BD67CB84F4E5FA5479F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		025F9EF1853F73EF244DF73E /* Targets Support Files */ = {
+		0E1C4E8C075BAE819C63F144 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				70F7DAB1C1C96AEDB8CE16EA /* Pods-PicFinder */,
+				2F1E1AB78D19F815F9A70E3F /* Pods-PicFinder */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		08594CC999591974A9258F18 /* iOS */ = {
+		189CBD8E149352FB7AAB61B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED2C3E60E789C45937194A9E /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4C317D866F8D9911EEB7A5ED /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D1FE0D30749EFCA3BE94291 /* Info.plist */,
-				2FB56B2006014D0D48DDE567 /* Pods-PicFinder-SwiftyJSON.modulemap */,
-				A0504F1819F4EFA5220CA233 /* Pods-PicFinder-SwiftyJSON.xcconfig */,
-				4A5B60666BEDADF00F2C8055 /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */,
-				E4DC0E23E86827031E1246E4 /* Pods-PicFinder-SwiftyJSON-dummy.m */,
-				F21C109368F769693DC8B2F0 /* Pods-PicFinder-SwiftyJSON-prefix.pch */,
-				907A7388F695B0908919DC03 /* Pods-PicFinder-SwiftyJSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-PicFinder-SwiftyJSON";
-			sourceTree = "<group>";
-		};
-		584DD49778262AE06E2E0ACA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF835E2F0A862E9232F94928 /* Pods_PicFinder.framework */,
-				C04E4196EE7E5A3547472A0D /* SwiftyJSON.framework */,
+				1B5990683696B5A88EFADEF8 /* Pods_PicFinder.framework */,
+				D283E585DDFFEFE3D9C9033A /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70F7DAB1C1C96AEDB8CE16EA /* Pods-PicFinder */ = {
+		2F1E1AB78D19F815F9A70E3F /* Pods-PicFinder */ = {
 			isa = PBXGroup;
 			children = (
-				D76B5439D31C97A4CDEB19E2 /* Info.plist */,
-				16182584238E8957DC6E6C25 /* Pods-PicFinder.modulemap */,
-				C7759D7A16B0BCEDADA71F29 /* Pods-PicFinder-acknowledgements.markdown */,
-				E9C8D1D8532405EA747AD9E7 /* Pods-PicFinder-acknowledgements.plist */,
-				6A0BA2C9262E9D3410C846BF /* Pods-PicFinder-dummy.m */,
-				A9230768BCF11C4AEAB9C095 /* Pods-PicFinder-environment.h */,
-				0D588F3310DA3BE6C4748FCD /* Pods-PicFinder-frameworks.sh */,
-				3A94E389276F7A0903A5A3E2 /* Pods-PicFinder-resources.sh */,
-				B04D01504ED38D5502C22B63 /* Pods-PicFinder-umbrella.h */,
-				E43F4C8ADB0762D1F67C6434 /* Pods-PicFinder.debug.xcconfig */,
-				8D9EEF173A52CBDEB015601C /* Pods-PicFinder.release.xcconfig */,
+				4A00DB921C1FA0161DCD3A96 /* Info.plist */,
+				03DA9D0DAE637D11B8EEBB87 /* Pods-PicFinder.modulemap */,
+				59D4656B7AFC4E0DBF4A77C9 /* Pods-PicFinder-acknowledgements.markdown */,
+				99A4B40D3FC3F67B74A2C706 /* Pods-PicFinder-acknowledgements.plist */,
+				32CC50C45860426DD038C439 /* Pods-PicFinder-dummy.m */,
+				90DF3FF907FD3430F7A926B7 /* Pods-PicFinder-environment.h */,
+				04E91135E655FC3A56714562 /* Pods-PicFinder-frameworks.sh */,
+				8FC56A6F7DEBFEE85C445653 /* Pods-PicFinder-resources.sh */,
+				9D0FB0CA6177BAD1B93FEFE8 /* Pods-PicFinder-umbrella.h */,
+				C3ECFA179F4040D09CBB0613 /* Pods-PicFinder.debug.xcconfig */,
+				DD072084F07F4EBB11C2A65F /* Pods-PicFinder.release.xcconfig */,
 			);
 			name = "Pods-PicFinder";
 			path = "Target Support Files/Pods-PicFinder";
 			sourceTree = "<group>";
 		};
-		7C5D882E3A5E2535927882CB /* SwiftyJSON */ = {
+		40A780579EB3777266D03718 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18F082B5AD8515D98FBC4F7F /* SwiftyJSON.swift */,
-				4C317D866F8D9911EEB7A5ED /* Support Files */,
-			);
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		CA22039B1A5EFE61F6E3A29C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				08594CC999591974A9258F18 /* iOS */,
+				C9BAB284892A34773C9A1466 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F54C3C9B6D2D1C690CF5FC9C = {
+		53A35687956520BF5BD32EAC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				29BF140BE5EF618DEFE32C47 /* Podfile */,
-				CA22039B1A5EFE61F6E3A29C /* Frameworks */,
-				F7FD8770AFAA4E7E950F85EB /* Pods */,
-				584DD49778262AE06E2E0ACA /* Products */,
-				025F9EF1853F73EF244DF73E /* Targets Support Files */,
+				A7274D5DE044C8A1A4168248 /* Info.plist */,
+				7F3E82871358344250E26818 /* Pods-PicFinder-SwiftyJSON.modulemap */,
+				52D8A919C53427D2E626D191 /* Pods-PicFinder-SwiftyJSON.xcconfig */,
+				16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */,
+				2549A472A646903CE9257CF9 /* Pods-PicFinder-SwiftyJSON-dummy.m */,
+				0CEB978EF811CFDFF4A60D72 /* Pods-PicFinder-SwiftyJSON-prefix.pch */,
+				A8DCC59D2D424413C43BB565 /* Pods-PicFinder-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PicFinder-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		75C70054CDC59A6092BEF01D = {
+			isa = PBXGroup;
+			children = (
+				850EE49505B4E2A52E507A18 /* Podfile */,
+				40A780579EB3777266D03718 /* Frameworks */,
+				F0A823B9E17CE589DA725987 /* Pods */,
+				189CBD8E149352FB7AAB61B6 /* Products */,
+				0E1C4E8C075BAE819C63F144 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F7FD8770AFAA4E7E950F85EB /* Pods */ = {
+		B43AC374C4453D8C07EA0799 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				7C5D882E3A5E2535927882CB /* SwiftyJSON */,
+				F3B40CD25D53E63B3B3ABB39 /* SwiftyJSON.swift */,
+				53A35687956520BF5BD32EAC /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		C9BAB284892A34773C9A1466 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8F440D3FD929E52E556359B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0A823B9E17CE589DA725987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B43AC374C4453D8C07EA0799 /* SwiftyJSON */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -170,50 +170,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47A9F411101EE209EEAE14B5 /* Headers */ = {
+		142CF0C7A313108D9B52EE34 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73CA03AD5FC5FABB9B35819 /* Pods-PicFinder-umbrella.h in Headers */,
+				45ADABC4AF4FEC4555C3D911 /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73F848C42C05D86664E07226 /* Headers */ = {
+		A8BB145D77F1177B3CF041EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				803F6AE15F0F4EDBB0156CE4 /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */,
+				69632E7DE557C30D8491D34B /* Pods-PicFinder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D73E9D4F3AFF42B02FDE3BA /* Pods-PicFinder */ = {
+		0190806D1B354A677D868255 /* Pods-PicFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1866760A184880AC7A1B4D00 /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */;
+			buildConfigurationList = A507CBEBC07EA40ABEA3EBAE /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */;
 			buildPhases = (
-				7D72E9416ED8C60373133053 /* Sources */,
-				E45374F84F00AEC52B2B8DBB /* Frameworks */,
-				47A9F411101EE209EEAE14B5 /* Headers */,
+				B80A609D89F175C8988508BE /* Sources */,
+				565F13EE902A2E9E34245931 /* Frameworks */,
+				A8BB145D77F1177B3CF041EB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A57482255649C3F7624CF986 /* PBXTargetDependency */,
+				1F22A8A2E63AF366FFCC0EEB /* PBXTargetDependency */,
 			);
 			name = "Pods-PicFinder";
 			productName = "Pods-PicFinder";
-			productReference = AF835E2F0A862E9232F94928 /* Pods_PicFinder.framework */;
+			productReference = 1B5990683696B5A88EFADEF8 /* Pods_PicFinder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9B54B6CEBD404D39E4818D3B /* Pods-PicFinder-SwiftyJSON */ = {
+		1AC0F3C84AE82745F70AFF1A /* Pods-PicFinder-SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FD794AA4CC7B87067B984CF /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */;
+			buildConfigurationList = 3617DFE73473BD9AA7A7A9BA /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */;
 			buildPhases = (
-				98C0DD35B5A8E861E31158DF /* Sources */,
-				2BE04C840795C3D177D62944 /* Frameworks */,
-				73F848C42C05D86664E07226 /* Headers */,
+				44CE410D60828C29E84780EA /* Sources */,
+				F7D61053771AD2F65E61CC37 /* Frameworks */,
+				142CF0C7A313108D9B52EE34 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -221,66 +221,121 @@
 			);
 			name = "Pods-PicFinder-SwiftyJSON";
 			productName = "Pods-PicFinder-SwiftyJSON";
-			productReference = C04E4196EE7E5A3547472A0D /* SwiftyJSON.framework */;
+			productReference = D283E585DDFFEFE3D9C9033A /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		422406F7A7D6E3663E18B214 /* Project object */ = {
+		6BF55DFFB839F883148BE96C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 95D67F7B9C29CCA6D29E125D /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 3ED173BE2F545AE979CFAC41 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F54C3C9B6D2D1C690CF5FC9C;
-			productRefGroup = 584DD49778262AE06E2E0ACA /* Products */;
+			mainGroup = 75C70054CDC59A6092BEF01D;
+			productRefGroup = 189CBD8E149352FB7AAB61B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D73E9D4F3AFF42B02FDE3BA /* Pods-PicFinder */,
-				9B54B6CEBD404D39E4818D3B /* Pods-PicFinder-SwiftyJSON */,
+				0190806D1B354A677D868255 /* Pods-PicFinder */,
+				1AC0F3C84AE82745F70AFF1A /* Pods-PicFinder-SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D72E9416ED8C60373133053 /* Sources */ = {
+		44CE410D60828C29E84780EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438329794DD9CC7C1DCBAE79 /* Pods-PicFinder-dummy.m in Sources */,
+				3B71E8A92FFFE90666464B5B /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */,
+				DBDA519E05DC86D9D6B59C50 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98C0DD35B5A8E861E31158DF /* Sources */ = {
+		B80A609D89F175C8988508BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7269F6BBE435942F72374ACB /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */,
-				E02DF2C0231D59B2D973344D /* SwiftyJSON.swift in Sources */,
+				87158630BA85A2C17F2B2D80 /* Pods-PicFinder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A57482255649C3F7624CF986 /* PBXTargetDependency */ = {
+		1F22A8A2E63AF366FFCC0EEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PicFinder-SwiftyJSON";
-			target = 9B54B6CEBD404D39E4818D3B /* Pods-PicFinder-SwiftyJSON */;
-			targetProxy = 37CEC49826E62294711E1982 /* PBXContainerItemProxy */;
+			target = 1AC0F3C84AE82745F70AFF1A /* Pods-PicFinder-SwiftyJSON */;
+			targetProxy = 6FFC880418F3C937BA86BDCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		27B54FC38654485FD851D7B9 /* Debug */ = {
+		1D215D5C8D7E741770A6C99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65F7C08E1CFC005767D52945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96A54273E2072F5124315DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,9 +374,38 @@
 			};
 			name = Debug;
 		};
-		687233B96A4B4EDA43F345A8 /* Debug */ = {
+		CEF1A16C64D173A6F9BC6B8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E43F4C8ADB0762D1F67C6434 /* Pods-PicFinder.debug.xcconfig */;
+			baseConfigurationReference = DD072084F07F4EBB11C2A65F /* Pods-PicFinder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder/Pods-PicFinder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PicFinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDE2473EE350BFC313539EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ECFA179F4040D09CBB0613 /* Pods-PicFinder.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -349,63 +433,7 @@
 			};
 			name = Debug;
 		};
-		B8CDFD400978C4778F876804 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A5B60666BEDADF00F2C8055 /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C29055C966FE49A4287398BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D9EEF173A52CBDEB015601C /* Pods-PicFinder.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder/Pods-PicFinder.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PicFinder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C99B2023EF7BB3BD6C1290D3 /* Release */ = {
+		F6097A7FB4C1CEA656FD455C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -439,65 +467,37 @@
 			};
 			name = Release;
 		};
-		ED96ABE94ED0537A038FF687 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A5B60666BEDADF00F2C8055 /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1866760A184880AC7A1B4D00 /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */ = {
+		3617DFE73473BD9AA7A7A9BA /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				687233B96A4B4EDA43F345A8 /* Debug */,
-				C29055C966FE49A4287398BE /* Release */,
+				65F7C08E1CFC005767D52945 /* Debug */,
+				1D215D5C8D7E741770A6C99D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FD794AA4CC7B87067B984CF /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */ = {
+		3ED173BE2F545AE979CFAC41 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED96ABE94ED0537A038FF687 /* Debug */,
-				B8CDFD400978C4778F876804 /* Release */,
+				96A54273E2072F5124315DCC /* Debug */,
+				F6097A7FB4C1CEA656FD455C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95D67F7B9C29CCA6D29E125D /* Build configuration list for PBXProject "Pods" */ = {
+		A507CBEBC07EA40ABEA3EBAE /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27B54FC38654485FD851D7B9 /* Debug */,
-				C99B2023EF7BB3BD6C1290D3 /* Release */,
+				DDE2473EE350BFC313539EA0 /* Debug */,
+				CEF1A16C64D173A6F9BC6B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 422406F7A7D6E3663E18B214 /* Project object */;
+	rootObject = 6BF55DFFB839F883148BE96C /* Project object */;
 }
