@@ -64,28 +64,29 @@ class FlickrPhoto : Equatable {
                 continue
             }
         }
-    }
-   //5/4: The request below this line is happening before the request above resolves.  We need to chain this request to the completion block of the one above. Good work :D
-    let loadURL = largestSizeAvailableURL
-    let loadRequest = NSURLRequest(URL:loadURL)
-    NSURLConnection.sendAsynchronousRequest(loadRequest,
-      queue: NSOperationQueue.mainQueue()) {
-        response, data, error in
         
-        if error != nil {
-          completion(flickrPhoto: self, error: error)
-          return
+        let loadURL = largestSizeAvailableURL
+        let loadRequest = NSURLRequest(URL:loadURL)
+        NSURLConnection.sendAsynchronousRequest(loadRequest,
+            queue: NSOperationQueue.mainQueue()) {
+                response, data, error in
+                
+                if error != nil {
+                    completion(flickrPhoto: self, error: error)
+                    return
+                }
+                
+                if data != nil {
+                    let returnedImage = UIImage(data: data)
+                    self.largeImage = returnedImage
+                    completion(flickrPhoto: self, error: nil)
+                    return
+                }
+                
+                completion(flickrPhoto: self, error: nil)
         }
-        
-        if data != nil {
-          let returnedImage = UIImage(data: data)
-          self.largeImage = returnedImage
-          completion(flickrPhoto: self, error: nil)
-          return
-        }
-        
-        completion(flickrPhoto: self, error: nil)
     }
+    
   }
   
   func sizeToFillWidthOfSize(size:CGSize) -> CGSize {
