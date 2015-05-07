@@ -15,12 +15,17 @@ class DetailViewController: UIViewController, UIActionSheetDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .Gray)
+        view.addSubview(activityIndicator)
+        activityIndicator.frame = view.bounds
+        activityIndicator.startAnimating()
         flickrPhoto!.loadLargeImage { (flickrPhoto, error) -> Void in
             if (error == nil) {
                 self.imageView.image = flickrPhoto.largeImage
             } else {
                 self.imageView.image = flickrPhoto.thumbnail
             }
+            activityIndicator.removeFromSuperview()
         }
         let tapGestureRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("imageTapped:"))
         imageView.userInteractionEnabled = true

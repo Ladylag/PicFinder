@@ -59,8 +59,12 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
         //if the scrollview has reached the bottom and there is not currently a search in progress
         if (scrollView.contentOffset.y >= (scrollView.contentSize.height - scrollView.frame.size.height) &&
             self.waitingForSearchAPI == false && self.currentSearch != nil) {
+                let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .WhiteLarge)
+                view.addSubview(activityIndicator)
+                activityIndicator.frame = view.bounds
+                activityIndicator.startAnimating()
                searchForTerm(currentSearch?.searchTerm, completion: { (error) -> Void in
-               //SOPHIEXXX: remove activity indicator here
+                    activityIndicator.removeFromSuperview()
                }, replaceLastResults: false)
         }
     }
@@ -117,6 +121,7 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
         activityIndicator.startAnimating()
         searchForTerm(textField.text, completion: { (error) -> Void in
             activityIndicator.removeFromSuperview()
+            self.collectionView?.contentOffset = CGPointZero
         })
         textField.text = nil
         textField.resignFirstResponder()
