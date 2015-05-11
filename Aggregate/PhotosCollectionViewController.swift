@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import iAd
 
 private let reuseIdentifier = "photoCell"
 
@@ -23,6 +24,11 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
         let destinationController: DetailViewController = segue.destinationViewController as! DetailViewController
         let flickrPhoto = sender as! FlickrPhoto
         destinationController.flickrPhoto = flickrPhoto
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.canDisplayBannerAds = true
     }
     
     func searchForTerm(searchTerm: String!, completion : (error : NSError?) -> Void, replaceLastResults : Bool = true) {

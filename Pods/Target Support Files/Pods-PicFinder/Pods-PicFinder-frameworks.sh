@@ -49,7 +49,9 @@ code_sign() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'SwiftyJSON.framework'
+  install_framework 'iRate.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'SwiftyJSON.framework'
+  install_framework 'iRate.framework'
 fi

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import iRate
 
 let themeColor = UIColor(red: 1, green: 0, blue: 1, alpha: 1)
 
@@ -18,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         window?.tintColor = themeColor
+        iRate.sharedInstance().usesUntilPrompt = 2
         return true
     }
 

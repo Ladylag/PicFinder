@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0190806D1B354A677D868255"
+               BlueprintIdentifier = "43AEA89A955BBA7F10EF1505"
                BuildableName = "Pods_PicFinder.framework"
                BlueprintName = "Pods-PicFinder"
                ReferencedContainer = "container:Pods.xcodeproj">

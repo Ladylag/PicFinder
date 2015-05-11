@@ -7,213 +7,272 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B71E8A92FFFE90666464B5B /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2549A472A646903CE9257CF9 /* Pods-PicFinder-SwiftyJSON-dummy.m */; };
-		45ADABC4AF4FEC4555C3D911 /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DCC59D2D424413C43BB565 /* Pods-PicFinder-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69632E7DE557C30D8491D34B /* Pods-PicFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0FB0CA6177BAD1B93FEFE8 /* Pods-PicFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87158630BA85A2C17F2B2D80 /* Pods-PicFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CC50C45860426DD038C439 /* Pods-PicFinder-dummy.m */; };
-		B16187E80B7D71CBAC22FB69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F440D3FD929E52E556359B /* Foundation.framework */; };
-		BCA19BD67CB84F4E5FA5479F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F440D3FD929E52E556359B /* Foundation.framework */; };
-		DBDA519E05DC86D9D6B59C50 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40CD25D53E63B3B3ABB39 /* SwiftyJSON.swift */; };
+		240473EE42E72071BF3AE2FA /* Pods-PicFinder-iRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AFA34458BD7B51F5ECD9BB /* Pods-PicFinder-iRate-dummy.m */; };
+		2C2B427A39FEA4AA317C4D3D /* Pods-PicFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4C38F516E0FD8118A481AF /* Pods-PicFinder-dummy.m */; };
+		31C0B21576F4F63913ECB68D /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4E28C3481A87EDA71EE8EB /* iRate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		443A739F953E8235C5BC5CA6 /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 997814F85E24CB0D1D792044 /* Pods-PicFinder-SwiftyJSON-dummy.m */; };
+		59BEE5301DC65EA875F41ADA /* Pods-PicFinder-iRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0D0F6E91A317D1E25F3252 /* Pods-PicFinder-iRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1E6654951C146847BBDABA /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59F4B4B5A8B3706A44D9731 /* Pods-PicFinder-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7414D22E70CF842CCA895D38 /* Pods-PicFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A5E994D89C9A06869516D2 /* Pods-PicFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86907D6BC40CD3FF36D87636 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9CB489C41AA55C659D276 /* Foundation.framework */; };
+		87A60D90418B2D4D93E2D7D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9CB489C41AA55C659D276 /* Foundation.framework */; };
+		9422FD4B9CE545127C9D75EB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32ED6A70F6510ECFF66B83D /* SwiftyJSON.swift */; };
+		B24AA89E8813CA981442DEC2 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD47DD59CFED57F32F406311 /* iRate.bundle */; };
+		CEF4E101FD47FD88B5EA286C /* iRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03811B9C62F270CD7CA78028 /* iRate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45008A4658EA13FC27AC935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9CB489C41AA55C659D276 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6FFC880418F3C937BA86BDCA /* PBXContainerItemProxy */ = {
+		7B94A4B0E2C3B703406F1F69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6BF55DFFB839F883148BE96C /* Project object */;
+			containerPortal = 8084D078C6C069B8B8129A23 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1AC0F3C84AE82745F70AFF1A;
+			remoteGlobalIDString = 71375CDBB59C0651BB280C40;
+			remoteInfo = "Pods-PicFinder-iRate";
+		};
+		B3946E6EC27B0EACB5CD1B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8084D078C6C069B8B8129A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413E708BD1F5726EB017B44B;
 			remoteInfo = "Pods-PicFinder-SwiftyJSON";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DA9D0DAE637D11B8EEBB87 /* Pods-PicFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder.modulemap"; sourceTree = "<group>"; };
-		04E91135E655FC3A56714562 /* Pods-PicFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-frameworks.sh"; sourceTree = "<group>"; };
-		0CEB978EF811CFDFF4A60D72 /* Pods-PicFinder-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
-		1B5990683696B5A88EFADEF8 /* Pods_PicFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2549A472A646903CE9257CF9 /* Pods-PicFinder-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		32CC50C45860426DD038C439 /* Pods-PicFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-dummy.m"; sourceTree = "<group>"; };
-		4A00DB921C1FA0161DCD3A96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52D8A919C53427D2E626D191 /* Pods-PicFinder-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
-		59D4656B7AFC4E0DBF4A77C9 /* Pods-PicFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PicFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F3E82871358344250E26818 /* Pods-PicFinder-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
-		850EE49505B4E2A52E507A18 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8FC56A6F7DEBFEE85C445653 /* Pods-PicFinder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-resources.sh"; sourceTree = "<group>"; };
-		90DF3FF907FD3430F7A926B7 /* Pods-PicFinder-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-environment.h"; sourceTree = "<group>"; };
-		99A4B40D3FC3F67B74A2C706 /* Pods-PicFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PicFinder-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D0FB0CA6177BAD1B93FEFE8 /* Pods-PicFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-umbrella.h"; sourceTree = "<group>"; };
-		A7274D5DE044C8A1A4168248 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8DCC59D2D424413C43BB565 /* Pods-PicFinder-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		B8F440D3FD929E52E556359B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C3ECFA179F4040D09CBB0613 /* Pods-PicFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.debug.xcconfig"; sourceTree = "<group>"; };
-		D283E585DDFFEFE3D9C9033A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD072084F07F4EBB11C2A65F /* Pods-PicFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.release.xcconfig"; sourceTree = "<group>"; };
-		F3B40CD25D53E63B3B3ABB39 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		00C9CB489C41AA55C659D276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		03811B9C62F270CD7CA78028 /* iRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = iRate/iRate.h; sourceTree = "<group>"; };
+		0939143AF1EC9DB1EB94738D /* Pods-PicFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PicFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BC66FF9F6C94EAAC0E04F9E /* Pods-PicFinder-iRate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-iRate-Private.xcconfig"; sourceTree = "<group>"; };
+		1A0D0F6E91A317D1E25F3252 /* Pods-PicFinder-iRate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-iRate-umbrella.h"; sourceTree = "<group>"; };
+		1B4C38F516E0FD8118A481AF /* Pods-PicFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-dummy.m"; sourceTree = "<group>"; };
+		26BB3DEEAAA576218C5F9AFA /* Pods-PicFinder-iRate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder-iRate.modulemap"; sourceTree = "<group>"; };
+		29A0437F6F6C6CED5E1F69D5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		359453C40493D105F8B99934 /* Pods-PicFinder-iRate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-iRate-prefix.pch"; sourceTree = "<group>"; };
+		373D9132164684214F2C25EF /* Pods-PicFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.release.xcconfig"; sourceTree = "<group>"; };
+		3BA930E4A719CE075D191F48 /* Pods-PicFinder-iRate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-iRate.xcconfig"; sourceTree = "<group>"; };
+		71AFA34458BD7B51F5ECD9BB /* Pods-PicFinder-iRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-iRate-dummy.m"; sourceTree = "<group>"; };
+		91F69FC4440A90E005543E6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991345363AFF0824C02B7758 /* Pods-PicFinder-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		997814F85E24CB0D1D792044 /* Pods-PicFinder-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicFinder-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A59F4B4B5A8B3706A44D9731 /* Pods-PicFinder-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		A5C3CBD0DF160FA40D0D1C62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C044D837EEEBD04533DBFE10 /* Pods-PicFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PicFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C60C723B5768160759A5A189 /* Pods-PicFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E24B352D5A3BCAF970A94A /* Pods-PicFinder-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		CC6912A6A460CB73E92DCFA4 /* Pods_PicFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53A4BF9505DB3756706F2AD /* Pods-PicFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-frameworks.sh"; sourceTree = "<group>"; };
+		D7DFA253D2B61D7BCFCB1D27 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAAF0F914C49D87B7773AAB /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicFinder-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		DD4E28C3481A87EDA71EE8EB /* iRate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = iRate/iRate.m; sourceTree = "<group>"; };
+		DFA218A52EBEBF19F297EBD5 /* Pods-PicFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PicFinder.modulemap"; sourceTree = "<group>"; };
+		E5940E7F26CFF145783FB8C7 /* Pods-PicFinder-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-environment.h"; sourceTree = "<group>"; };
+		E9A8A52F4CFC854A64139809 /* Pods-PicFinder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicFinder-resources.sh"; sourceTree = "<group>"; };
+		EAA10FE6EBE31202D7D3A6E6 /* Pods-PicFinder-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		F32ED6A70F6510ECFF66B83D /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		F5DE95E70112204824577FEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A5E994D89C9A06869516D2 /* Pods-PicFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PicFinder-umbrella.h"; sourceTree = "<group>"; };
+		FD47DD59CFED57F32F406311 /* iRate.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = iRate/iRate.bundle; sourceTree = "<group>"; };
+		FFE2F4D6EB1FA0392B5AB0C3 /* iRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		565F13EE902A2E9E34245931 /* Frameworks */ = {
+		3BB99BFEB67DA511E3804DCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16187E80B7D71CBAC22FB69 /* Foundation.framework in Frameworks */,
+				87A60D90418B2D4D93E2D7D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7D61053771AD2F65E61CC37 /* Frameworks */ = {
+		4DA8111E597AEE6F4553B26D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA19BD67CB84F4E5FA5479F /* Foundation.framework in Frameworks */,
+				86907D6BC40CD3FF36D87636 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4651469EE3AE6AD6C6AC6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45008A4658EA13FC27AC935 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E1C4E8C075BAE819C63F144 /* Targets Support Files */ = {
+		1807BDD4F4D2121AC8F55EAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F1E1AB78D19F815F9A70E3F /* Pods-PicFinder */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		189CBD8E149352FB7AAB61B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B5990683696B5A88EFADEF8 /* Pods_PicFinder.framework */,
-				D283E585DDFFEFE3D9C9033A /* SwiftyJSON.framework */,
+				CC6912A6A460CB73E92DCFA4 /* Pods_PicFinder.framework */,
+				D7DFA253D2B61D7BCFCB1D27 /* SwiftyJSON.framework */,
+				FFE2F4D6EB1FA0392B5AB0C3 /* iRate.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F1E1AB78D19F815F9A70E3F /* Pods-PicFinder */ = {
+		2B1A75262B0B52F8E5A612D4 /* Pods-PicFinder */ = {
 			isa = PBXGroup;
 			children = (
-				4A00DB921C1FA0161DCD3A96 /* Info.plist */,
-				03DA9D0DAE637D11B8EEBB87 /* Pods-PicFinder.modulemap */,
-				59D4656B7AFC4E0DBF4A77C9 /* Pods-PicFinder-acknowledgements.markdown */,
-				99A4B40D3FC3F67B74A2C706 /* Pods-PicFinder-acknowledgements.plist */,
-				32CC50C45860426DD038C439 /* Pods-PicFinder-dummy.m */,
-				90DF3FF907FD3430F7A926B7 /* Pods-PicFinder-environment.h */,
-				04E91135E655FC3A56714562 /* Pods-PicFinder-frameworks.sh */,
-				8FC56A6F7DEBFEE85C445653 /* Pods-PicFinder-resources.sh */,
-				9D0FB0CA6177BAD1B93FEFE8 /* Pods-PicFinder-umbrella.h */,
-				C3ECFA179F4040D09CBB0613 /* Pods-PicFinder.debug.xcconfig */,
-				DD072084F07F4EBB11C2A65F /* Pods-PicFinder.release.xcconfig */,
+				F5DE95E70112204824577FEB /* Info.plist */,
+				DFA218A52EBEBF19F297EBD5 /* Pods-PicFinder.modulemap */,
+				C044D837EEEBD04533DBFE10 /* Pods-PicFinder-acknowledgements.markdown */,
+				0939143AF1EC9DB1EB94738D /* Pods-PicFinder-acknowledgements.plist */,
+				1B4C38F516E0FD8118A481AF /* Pods-PicFinder-dummy.m */,
+				E5940E7F26CFF145783FB8C7 /* Pods-PicFinder-environment.h */,
+				D53A4BF9505DB3756706F2AD /* Pods-PicFinder-frameworks.sh */,
+				E9A8A52F4CFC854A64139809 /* Pods-PicFinder-resources.sh */,
+				F9A5E994D89C9A06869516D2 /* Pods-PicFinder-umbrella.h */,
+				C60C723B5768160759A5A189 /* Pods-PicFinder.debug.xcconfig */,
+				373D9132164684214F2C25EF /* Pods-PicFinder.release.xcconfig */,
 			);
 			name = "Pods-PicFinder";
 			path = "Target Support Files/Pods-PicFinder";
 			sourceTree = "<group>";
 		};
-		40A780579EB3777266D03718 /* Frameworks */ = {
+		37A48D5E3BCE710C084B8860 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C9BAB284892A34773C9A1466 /* iOS */,
+				00C9CB489C41AA55C659D276 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		53A35687956520BF5BD32EAC /* Support Files */ = {
+		3AACC48C5919A334D618E331 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7274D5DE044C8A1A4168248 /* Info.plist */,
-				7F3E82871358344250E26818 /* Pods-PicFinder-SwiftyJSON.modulemap */,
-				52D8A919C53427D2E626D191 /* Pods-PicFinder-SwiftyJSON.xcconfig */,
-				16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */,
-				2549A472A646903CE9257CF9 /* Pods-PicFinder-SwiftyJSON-dummy.m */,
-				0CEB978EF811CFDFF4A60D72 /* Pods-PicFinder-SwiftyJSON-prefix.pch */,
-				A8DCC59D2D424413C43BB565 /* Pods-PicFinder-SwiftyJSON-umbrella.h */,
+				A5C3CBD0DF160FA40D0D1C62 /* Info.plist */,
+				26BB3DEEAAA576218C5F9AFA /* Pods-PicFinder-iRate.modulemap */,
+				3BA930E4A719CE075D191F48 /* Pods-PicFinder-iRate.xcconfig */,
+				0BC66FF9F6C94EAAC0E04F9E /* Pods-PicFinder-iRate-Private.xcconfig */,
+				71AFA34458BD7B51F5ECD9BB /* Pods-PicFinder-iRate-dummy.m */,
+				359453C40493D105F8B99934 /* Pods-PicFinder-iRate-prefix.pch */,
+				1A0D0F6E91A317D1E25F3252 /* Pods-PicFinder-iRate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PicFinder-iRate";
+			sourceTree = "<group>";
+		};
+		3B0997866EDAF1AF6F40F2C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F69FC4440A90E005543E6A /* Info.plist */,
+				C8E24B352D5A3BCAF970A94A /* Pods-PicFinder-SwiftyJSON.modulemap */,
+				991345363AFF0824C02B7758 /* Pods-PicFinder-SwiftyJSON.xcconfig */,
+				DCAAF0F914C49D87B7773AAB /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */,
+				997814F85E24CB0D1D792044 /* Pods-PicFinder-SwiftyJSON-dummy.m */,
+				EAA10FE6EBE31202D7D3A6E6 /* Pods-PicFinder-SwiftyJSON-prefix.pch */,
+				A59F4B4B5A8B3706A44D9731 /* Pods-PicFinder-SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-PicFinder-SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		75C70054CDC59A6092BEF01D = {
+		61059AC621C44BE1E81664A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				850EE49505B4E2A52E507A18 /* Podfile */,
-				40A780579EB3777266D03718 /* Frameworks */,
-				F0A823B9E17CE589DA725987 /* Pods */,
-				189CBD8E149352FB7AAB61B6 /* Products */,
-				0E1C4E8C075BAE819C63F144 /* Targets Support Files */,
+				37A48D5E3BCE710C084B8860 /* iOS */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B43AC374C4453D8C07EA0799 /* SwiftyJSON */ = {
+		7A506AD30EC495846A3F70AB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3B40CD25D53E63B3B3ABB39 /* SwiftyJSON.swift */,
-				53A35687956520BF5BD32EAC /* Support Files */,
+				A62013FA9FFAB5722201F34D /* SwiftyJSON */,
+				A025E8242C3CF12C90AB7D9B /* iRate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88F618F1920978876BCD6C29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A75262B0B52F8E5A612D4 /* Pods-PicFinder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A025E8242C3CF12C90AB7D9B /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				03811B9C62F270CD7CA78028 /* iRate.h */,
+				DD4E28C3481A87EDA71EE8EB /* iRate.m */,
+				DB7E59571530DA218D0AB4BC /* Resources */,
+				3AACC48C5919A334D618E331 /* Support Files */,
+			);
+			path = iRate;
+			sourceTree = "<group>";
+		};
+		A62013FA9FFAB5722201F34D /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F32ED6A70F6510ECFF66B83D /* SwiftyJSON.swift */,
+				3B0997866EDAF1AF6F40F2C6 /* Support Files */,
 			);
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		C9BAB284892A34773C9A1466 /* iOS */ = {
+		DB7E59571530DA218D0AB4BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B8F440D3FD929E52E556359B /* Foundation.framework */,
+				FD47DD59CFED57F32F406311 /* iRate.bundle */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		F0A823B9E17CE589DA725987 /* Pods */ = {
+		F5200D6237C26EC64BBD3C8B = {
 			isa = PBXGroup;
 			children = (
-				B43AC374C4453D8C07EA0799 /* SwiftyJSON */,
+				29A0437F6F6C6CED5E1F69D5 /* Podfile */,
+				61059AC621C44BE1E81664A0 /* Frameworks */,
+				7A506AD30EC495846A3F70AB /* Pods */,
+				1807BDD4F4D2121AC8F55EAB /* Products */,
+				88F618F1920978876BCD6C29 /* Targets Support Files */,
 			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		142CF0C7A313108D9B52EE34 /* Headers */ = {
+		86809AA85CFE95B2E7444063 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45ADABC4AF4FEC4555C3D911 /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */,
+				7414D22E70CF842CCA895D38 /* Pods-PicFinder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8BB145D77F1177B3CF041EB /* Headers */ = {
+		8EE715C7FFFE42221D9CE7AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69632E7DE557C30D8491D34B /* Pods-PicFinder-umbrella.h in Headers */,
+				6A1E6654951C146847BBDABA /* Pods-PicFinder-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB118DA8CB8DC307C2D6C551 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BEE5301DC65EA875F41ADA /* Pods-PicFinder-iRate-umbrella.h in Headers */,
+				CEF4E101FD47FD88B5EA286C /* iRate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0190806D1B354A677D868255 /* Pods-PicFinder */ = {
+		413E708BD1F5726EB017B44B /* Pods-PicFinder-SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A507CBEBC07EA40ABEA3EBAE /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */;
+			buildConfigurationList = F616ACBB9875719FF2DA9945 /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */;
 			buildPhases = (
-				B80A609D89F175C8988508BE /* Sources */,
-				565F13EE902A2E9E34245931 /* Frameworks */,
-				A8BB145D77F1177B3CF041EB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F22A8A2E63AF366FFCC0EEB /* PBXTargetDependency */,
-			);
-			name = "Pods-PicFinder";
-			productName = "Pods-PicFinder";
-			productReference = 1B5990683696B5A88EFADEF8 /* Pods_PicFinder.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1AC0F3C84AE82745F70AFF1A /* Pods-PicFinder-SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3617DFE73473BD9AA7A7A9BA /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */;
-			buildPhases = (
-				44CE410D60828C29E84780EA /* Sources */,
-				F7D61053771AD2F65E61CC37 /* Frameworks */,
-				142CF0C7A313108D9B52EE34 /* Headers */,
+				9D2885038184644860A3D8EF /* Sources */,
+				4DA8111E597AEE6F4553B26D /* Frameworks */,
+				8EE715C7FFFE42221D9CE7AD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -221,95 +280,166 @@
 			);
 			name = "Pods-PicFinder-SwiftyJSON";
 			productName = "Pods-PicFinder-SwiftyJSON";
-			productReference = D283E585DDFFEFE3D9C9033A /* SwiftyJSON.framework */;
+			productReference = D7DFA253D2B61D7BCFCB1D27 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43AEA89A955BBA7F10EF1505 /* Pods-PicFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAF839C3FBC1D54AA038D96 /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */;
+			buildPhases = (
+				3CA7588DCFDF37178645B75D /* Sources */,
+				3BB99BFEB67DA511E3804DCB /* Frameworks */,
+				86809AA85CFE95B2E7444063 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99CBABE1338C3B2FF68F5CF /* PBXTargetDependency */,
+				FA116505D8908E5A62994F8D /* PBXTargetDependency */,
+			);
+			name = "Pods-PicFinder";
+			productName = "Pods-PicFinder";
+			productReference = CC6912A6A460CB73E92DCFA4 /* Pods_PicFinder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71375CDBB59C0651BB280C40 /* Pods-PicFinder-iRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120DFD2BF022CEC285B04EF1 /* Build configuration list for PBXNativeTarget "Pods-PicFinder-iRate" */;
+			buildPhases = (
+				4B44AEE50C962376F275850D /* Sources */,
+				E4651469EE3AE6AD6C6AC6B7 /* Frameworks */,
+				EB118DA8CB8DC307C2D6C551 /* Headers */,
+				178B4360E94ACE2F8EB0CF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PicFinder-iRate";
+			productName = "Pods-PicFinder-iRate";
+			productReference = FFE2F4D6EB1FA0392B5AB0C3 /* iRate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6BF55DFFB839F883148BE96C /* Project object */ = {
+		8084D078C6C069B8B8129A23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 3ED173BE2F545AE979CFAC41 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 44708FD9696981187413245D /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 75C70054CDC59A6092BEF01D;
-			productRefGroup = 189CBD8E149352FB7AAB61B6 /* Products */;
+			mainGroup = F5200D6237C26EC64BBD3C8B;
+			productRefGroup = 1807BDD4F4D2121AC8F55EAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0190806D1B354A677D868255 /* Pods-PicFinder */,
-				1AC0F3C84AE82745F70AFF1A /* Pods-PicFinder-SwiftyJSON */,
+				43AEA89A955BBA7F10EF1505 /* Pods-PicFinder */,
+				413E708BD1F5726EB017B44B /* Pods-PicFinder-SwiftyJSON */,
+				71375CDBB59C0651BB280C40 /* Pods-PicFinder-iRate */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		44CE410D60828C29E84780EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		178B4360E94ACE2F8EB0CF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B71E8A92FFFE90666464B5B /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */,
-				DBDA519E05DC86D9D6B59C50 /* SwiftyJSON.swift in Sources */,
+				B24AA89E8813CA981442DEC2 /* iRate.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B80A609D89F175C8988508BE /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA7588DCFDF37178645B75D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87158630BA85A2C17F2B2D80 /* Pods-PicFinder-dummy.m in Sources */,
+				2C2B427A39FEA4AA317C4D3D /* Pods-PicFinder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B44AEE50C962376F275850D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240473EE42E72071BF3AE2FA /* Pods-PicFinder-iRate-dummy.m in Sources */,
+				31C0B21576F4F63913ECB68D /* iRate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2885038184644860A3D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443A739F953E8235C5BC5CA6 /* Pods-PicFinder-SwiftyJSON-dummy.m in Sources */,
+				9422FD4B9CE545127C9D75EB /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F22A8A2E63AF366FFCC0EEB /* PBXTargetDependency */ = {
+		F99CBABE1338C3B2FF68F5CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PicFinder-SwiftyJSON";
-			target = 1AC0F3C84AE82745F70AFF1A /* Pods-PicFinder-SwiftyJSON */;
-			targetProxy = 6FFC880418F3C937BA86BDCA /* PBXContainerItemProxy */;
+			target = 413E708BD1F5726EB017B44B /* Pods-PicFinder-SwiftyJSON */;
+			targetProxy = B3946E6EC27B0EACB5CD1B44 /* PBXContainerItemProxy */;
+		};
+		FA116505D8908E5A62994F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PicFinder-iRate";
+			target = 71375CDBB59C0651BB280C40 /* Pods-PicFinder-iRate */;
+			targetProxy = 7B94A4B0E2C3B703406F1F69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D215D5C8D7E741770A6C99D /* Release */ = {
+		3B8A54312518B3B8FFCB1B1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		65F7C08E1CFC005767D52945 /* Debug */ = {
+		3FAFE6C0A0C84AC177F07BD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16320BA54F714701B44DB39F /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
+			baseConfigurationReference = DCAAF0F914C49D87B7773AAB /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -335,7 +465,120 @@
 			};
 			name = Debug;
 		};
-		96A54273E2072F5124315DCC /* Debug */ = {
+		4308250265320E38560E24D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373D9132164684214F2C25EF /* Pods-PicFinder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder/Pods-PicFinder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PicFinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4484A88D719C6B4A437F3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC66FF9F6C94EAAC0E04F9E /* Pods-PicFinder-iRate-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-iRate/Pods-PicFinder-iRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-iRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-iRate/Pods-PicFinder-iRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		464F8E89206D18929DD4B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60C723B5768160759A5A189 /* Pods-PicFinder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder/Pods-PicFinder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PicFinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3CED26097D1E0A1D8A06879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC66FF9F6C94EAAC0E04F9E /* Pods-PicFinder-iRate-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-iRate/Pods-PicFinder-iRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-iRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-iRate/Pods-PicFinder-iRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B44F3B71032680264D2FDD8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,9 +617,9 @@
 			};
 			name = Debug;
 		};
-		CEF1A16C64D173A6F9BC6B8B /* Release */ = {
+		E21858E30659F8C7130A259E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD072084F07F4EBB11C2A65F /* Pods-PicFinder.release.xcconfig */;
+			baseConfigurationReference = DCAAF0F914C49D87B7773AAB /* Pods-PicFinder-SwiftyJSON-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -385,119 +628,62 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder/Pods-PicFinder.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder-SwiftyJSON/Pods-PicFinder-SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PicFinder;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DDE2473EE350BFC313539EA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3ECFA179F4040D09CBB0613 /* Pods-PicFinder.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PicFinder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PicFinder/Pods-PicFinder.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PicFinder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F6097A7FB4C1CEA656FD455C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3617DFE73473BD9AA7A7A9BA /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */ = {
+		120DFD2BF022CEC285B04EF1 /* Build configuration list for PBXNativeTarget "Pods-PicFinder-iRate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65F7C08E1CFC005767D52945 /* Debug */,
-				1D215D5C8D7E741770A6C99D /* Release */,
+				A3CED26097D1E0A1D8A06879 /* Debug */,
+				4484A88D719C6B4A437F3A91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ED173BE2F545AE979CFAC41 /* Build configuration list for PBXProject "Pods" */ = {
+		44708FD9696981187413245D /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96A54273E2072F5124315DCC /* Debug */,
-				F6097A7FB4C1CEA656FD455C /* Release */,
+				B44F3B71032680264D2FDD8E /* Debug */,
+				3B8A54312518B3B8FFCB1B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A507CBEBC07EA40ABEA3EBAE /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */ = {
+		5CAF839C3FBC1D54AA038D96 /* Build configuration list for PBXNativeTarget "Pods-PicFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE2473EE350BFC313539EA0 /* Debug */,
-				CEF1A16C64D173A6F9BC6B8B /* Release */,
+				464F8E89206D18929DD4B3E3 /* Debug */,
+				4308250265320E38560E24D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F616ACBB9875719FF2DA9945 /* Build configuration list for PBXNativeTarget "Pods-PicFinder-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAFE6C0A0C84AC177F07BD9 /* Debug */,
+				E21858E30659F8C7130A259E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6BF55DFFB839F883148BE96C /* Project object */;
+	rootObject = 8084D078C6C069B8B8129A23 /* Project object */;
 }

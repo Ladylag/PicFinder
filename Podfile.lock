@@ -1,19 +1,27 @@
 PODS:
+  - iRate (1.11.4)
   - SwiftyJSON (2.2.0)
 
 DEPENDENCIES:
+  - iRate (from `https://github.com/nicklockwood/iRate.git`)
   - SwiftyJSON (from `https://github.com/Ladylag/SwiftyJSON.git`)
 
 EXTERNAL SOURCES:
+  iRate:
+    :git: https://github.com/nicklockwood/iRate.git
   SwiftyJSON:
     :git: https://github.com/Ladylag/SwiftyJSON.git
 
 CHECKOUT OPTIONS:
+  iRate:
+    :commit: f7b0c2dae10aabcac79bb12ea7f18b1a2daae0b0
+    :git: https://github.com/nicklockwood/iRate.git
   SwiftyJSON:
     :commit: aeb51dbb797d1c77a9d3afa739a2d2864be893f8
     :git: https://github.com/Ladylag/SwiftyJSON.git
 
 SPEC CHECKSUMS:
+  iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7
   SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
 
 COCOAPODS: 0.36.4
