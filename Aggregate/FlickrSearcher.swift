@@ -11,7 +11,7 @@ import UIKit
 import SwiftyJSON
 
 //SOPHIEXXX: get an api key that isn't associated with my account
-let apiKey = "bfe13d96ac43fc5d7dd254750845e5fd"
+let apiKey = "09be2cb1e62e0fc3026b21be1c1ddf88"
 let numberOfResultsPerPage = 20
 
 struct FlickrSearchResults {

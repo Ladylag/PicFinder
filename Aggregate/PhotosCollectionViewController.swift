@@ -28,7 +28,13 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.canDisplayBannerAds = true
+        let numberOfForegrounds = NSUserDefaults.standardUserDefaults().integerForKey("PFNumberOfForegrounds")
+        if (numberOfForegrounds > 3)
+        {
+            self.canDisplayBannerAds = true
+        } else {
+            self.canDisplayBannerAds = false
+        }
     }
     
     func searchForTerm(searchTerm: String!, completion : (error : NSError?) -> Void, replaceLastResults : Bool = true) {
@@ -128,6 +134,10 @@ class PhotosCollectionViewController: UICollectionViewController, UITextFieldDel
         searchForTerm(textField.text, completion: { (error) -> Void in
             activityIndicator.removeFromSuperview()
             self.collectionView?.contentOffset = CGPointZero
+            if (error != nil) {
+                let alertView = UIAlertView(title: "Error!", message: error!.localizedDescription, delegate: nil, cancelButtonTitle: "OK")
+                alertView.show()
+            }
         })
         textField.text = nil
         textField.resignFirstResponder()

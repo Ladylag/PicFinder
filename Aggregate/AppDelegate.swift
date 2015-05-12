@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         window?.tintColor = themeColor
         iRate.sharedInstance().usesUntilPrompt = 2
+        iRate.sharedInstance().daysUntilPrompt = 0
         return true
     }
 
@@ -34,6 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
+        var numberOfForegrounds = NSUserDefaults.standardUserDefaults().integerForKey("PFNumberOfForegrounds")
+        numberOfForegrounds++
+        NSUserDefaults.standardUserDefaults().setInteger(numberOfForegrounds, forKey:"PFNumberOfForegrounds")
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }
 
